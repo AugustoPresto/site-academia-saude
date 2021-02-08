@@ -3331,7 +3331,7 @@
 			background-color: #1E2832;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/pic11.jpg");
+			background-image: url("images/overlay.png"), url("../../images/exe5.jpg");
 			background-size: cover;
 		}
 
@@ -3879,7 +3879,7 @@
 		background-color: #1E2832;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../../images/header.jpg");
 		background-size: cover;
 		text-align: center;
 	}
@@ -4114,6 +4114,25 @@
 			}
 
 		}
+
+/* Atendimento e Mapa */
+	
+	#endereço {
+		display: flex;
+		text-align: left;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	#mapa {
+		height: 300px;
+		width: 300px;
+	}
+
+/*	.gm-style-mtc {
+		font-size: 10px !important;
+		padding: 0px 18px !important;
+	}*/
 
 /* Footer */
 
