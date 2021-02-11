@@ -17,6 +17,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		scroll-behavior: smooth;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -2725,7 +2726,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		margin-bottom: 6em;
+		margin-bottom: 3em;
 	}
 
 		.feature:last-child {
@@ -2762,7 +2763,7 @@
 		@media screen and (max-width: 1280px) {
 
 			.feature {
-				margin-bottom: 4em;
+				margin-bottom: 2em;
 			}
 
 				.feature .content {
@@ -2861,7 +2862,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 8em 0 6em 0;
+		padding: 3em 0 3em 0;
 		position: relative;
 	}
 
@@ -3581,7 +3582,7 @@
 		@media screen and (max-width: 1280px) {
 
 			.wrapper {
-				padding: 6em 0 4em 0;
+				padding: 2em 0 2em 0;
 			}
 
 				.wrapper > .inner {
@@ -3593,7 +3594,7 @@
 		@media screen and (max-width: 980px) {
 
 			.wrapper {
-				padding: 5em 3em 3em 3em;
+				padding: 2em 3em 2em 3em;
 			}
 
 				.wrapper > .inner {
@@ -4142,6 +4143,18 @@
 		width: 300px;
 	}
 
+	@media (max-width: 736px) {
+		#endereço {
+			flex-wrap: wrap;
+			}
+
+		#mapa {
+			height: 220px;
+			width: 240px;
+			margin-bottom: 2em;
+		}
+	}
+
 /* Footer */
 
 	#footer {
@@ -4223,7 +4236,7 @@
 		@media screen and (max-width: 980px) {
 
 			#footer .inner {
-				padding: 5em 0 3em 0;
+				padding: 2em 0 2em 0;
 				width: 100%;
 			}
 
@@ -4232,7 +4245,7 @@
 		@media screen and (max-width: 736px) {
 
 			#footer .inner {
-				padding: 3em 0 1em 0;
+				padding: 2em 0 1em 0;
 			}
 
 			#footer .copyright li {
@@ -4249,7 +4262,7 @@
 		@media screen and (max-width: 480px) {
 
 			#footer .inner {
-				padding: 2em 0 0.1em 0;
+				padding: 1em 0 0.1em 0;
 			}
 
 		}
