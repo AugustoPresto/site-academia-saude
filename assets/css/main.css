@@ -1800,6 +1800,14 @@
 		text-transform: uppercase;
 	}
 
+	header img {
+		height: 38px;
+		width: 46px;
+		position: absolute;
+		left: 50%;
+		top: 10%;
+	}
+
 	header h2 + p {
 		font-size: 1.25em;
 		margin-top: -1em;
@@ -1867,6 +1875,11 @@
 		header.major p {
 			font-size: 1em;
 		}
+
+		header img {
+		left: 54%;
+		top: 5%;
+	}
 
 	}
 
