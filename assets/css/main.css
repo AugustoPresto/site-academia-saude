@@ -2681,8 +2681,8 @@
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #51BAA4;
-			color: #51BAA4 !important;
+			box-shadow: inset 0 0 0 2px #53B94C;
+			color: #53B94C !important;
 		}
 
 			input[type="submit"].alt:hover,
@@ -3072,8 +3072,8 @@
 				.wrapper.style1 button.alt,
 				.wrapper.style1 .button.alt {
 					background-color: transparent;
-					box-shadow: inset 0 0 0 2px #51BAA4;
-					color: #51BAA4 !important;
+					box-shadow: inset 0 0 0 2px #53B94C;
+					color: #53B94C !important;
 				}
 
 					.wrapper.style1 input[type="submit"].alt:hover,
@@ -3624,7 +3624,7 @@
 		}
 
 	#header {
-		background: #07090c;
+		background: #27A8E1;
 		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		height: 3.25em;
@@ -3759,7 +3759,7 @@
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #07090c;
+		background: rgb(39, 168, 225);
 		box-shadow: none;
 		color: #fff;
 		height: 100%;
@@ -3814,7 +3814,7 @@
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: transparent;
 			border: 0;
-			color: #a5a9ad;
+			color: #fff;
 			cursor: pointer;
 			display: block;
 			height: 3.25em;
@@ -3952,7 +3952,7 @@
 			#banner input[type="button"].special,
 			#banner button.special,
 			#banner .button.special {
-				background-color: #51BAA4;
+				background-color: #53B94C;
 				box-shadow: none;
 				color: #fff !important;
 			}
@@ -4129,15 +4129,10 @@
 		width: 300px;
 	}
 
-/*	.gm-style-mtc {
-		font-size: 10px !important;
-		padding: 0px 18px !important;
-	}*/
-
 /* Footer */
 
 	#footer {
-		background-color: #1E2832;
+		background-color: #27A8E1;
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
 	}
@@ -4176,15 +4171,15 @@
 			-webkit-transition: color 0.2s ease-in-out;
 			-ms-transition: color 0.2s ease-in-out;
 			transition: color 0.2s ease-in-out;
-			color: #a5a9ad;
+			color: #fff;
 		}
 
 			#footer a:active, #footer a:focus, #footer a:hover {
-				color: #fff;
+				color: #a5a9ad;
 			}
 
 		#footer .inner {
-			padding: 6em 0 4em 0;
+			padding: 3em 0 2em 0;
 			border-top: solid 1px rgba(255, 255, 255, 0.1);
 			margin: 0 auto;
 			width: 75%;
@@ -4199,7 +4194,7 @@
 			}
 
 		#footer .copyright {
-			color: #a5a9ad;
+			color: #fff;
 			font-size: 0.9em;
 			margin: 0 0 2em 0;
 			padding: 0;
