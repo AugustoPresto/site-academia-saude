@@ -4138,6 +4138,10 @@
 		justify-content: space-around;
 	}
 
+	#endereço p {
+		font-size: 1.2em;
+	}
+
 	#mapa {
 		height: 300px;
 		width: 300px;
@@ -4146,7 +4150,11 @@
 	@media (max-width: 736px) {
 		#endereço {
 			flex-wrap: wrap;
-			}
+		}
+
+		#endereço p {
+			font-size: 1em;
+		}
 
 		#mapa {
 			height: 220px;
